@@ -76,7 +76,7 @@ def main ():
 
     content = open ('content/contact.html').read()
 
-    finished_projects_page = template.replace('{{content}}',content)
+    finished_projects_page = template.replace('{{content}}', content)
     open ('docs/contact.html','w+').write(finished_projects_page)
 
 
