@@ -47,8 +47,8 @@ def main ():
 
     content = open ('content/blog.html').read()
 
-    finished_projects_page = template.replace('{{content}}',content)
-    open ('docs/blog.html','w+').write(finished_projects_page)
+    finished_blog_page = template.replace('{{content}}',content)
+    open ('docs/blog.html','w+').write(finished_blog_page)
 
 
 if __name__=='__main__':
@@ -76,8 +76,8 @@ def main ():
 
     content = open ('content/contact.html').read()
 
-    finished_projects_page = template.replace('{{content}}', content)
-    open ('docs/contact.html','w+').write(finished_projects_page)
+    finished_contact_page = template.replace('{{content}}', content)
+    open ('docs/contact.html','w+').write(finished_contact_page)
 
 
 if __name__=='__main__':
