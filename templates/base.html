@@ -21,7 +21,7 @@
     <link href="jumbotron.css" rel="stylesheet">
   </head>
 
-  <body>
+  <!-- <body> -->
    
 
 
@@ -72,8 +72,9 @@
             </div>
         </div>
       </div>
-      
-      
+
+      <body>
+      <!-- {% block content %} {% endblock %} -->
       <div class="container">
         
       
@@ -81,7 +82,7 @@
           <div class="col-md-4">
             <h2>My Blog</h2>
             
-            <p><a class="btn btn-secondary" href="blog.html" role="button" target="_self">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="blog.html" role="button" >View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
             <h2>My Projects</h2>
@@ -96,8 +97,8 @@
         </div>
         
       </div>
-
-
+      {{ content }}
+    </body>
     </main>
 
     <footer class="container">
@@ -105,5 +106,5 @@
     </footer>
 
   </div>
-  </body>
+  <!-- </body> -->
 </html>
