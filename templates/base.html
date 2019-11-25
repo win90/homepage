@@ -72,9 +72,8 @@
             </div>
         </div>
       </div>
-
-      <body>
-      <!-- {% block content %} {% endblock %} -->
+      
+      <!-- {{content}} -->
       <div class="container">
         
       
@@ -87,7 +86,7 @@
           <div class="col-md-4">
             <h2>My Projects</h2>
             
-            <p><a class="btn btn-secondary" href="projects.html" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="projects.html"role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
             <h2>My Contact</h2>
@@ -97,8 +96,9 @@
         </div>
         
       </div>
-      {{ content }}
-    </body>
+
+    {{content}}
+
     </main>
 
     <footer class="container">
@@ -106,5 +106,5 @@
     </footer>
 
   </div>
-  <!-- </body> -->
+  </body>
 </html>
